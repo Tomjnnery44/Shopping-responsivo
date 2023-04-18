@@ -1,0 +1,185 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.box-right {
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    height: 141vh;
+        background-color: rgba(93, 93, 125, 0.16);
+
+
+}
+
+header {
+
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+
+    color: #5D5D7D;
+    margin-top: 24px;
+    margin-left: 57px;
+
+
+}
+
+.link {
+    margin-right: 42px;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: -121px;
+}
+
+
+.box-left {
+
+    display: inline-block;
+    width: 60%;
+    height: 100vh;
+    margin: 381px 0 0 136px;
+
+}
+
+
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+
+
+    width: 368px;
+    color: #5D5D7D;
+
+}
+
+
+button {
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    width: 269px;
+    height: 62px;
+    border-radius: 55px;
+    border: none;
+}
+
+
+
+p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    /* or 171% */
+
+
+    color: #5D5D7D;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    width: 540px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+    header {
+        display: none;
+    }
+
+    .box-left {
+        display: block;
+        /* position: relative; */
+        width: 10;
+
+        position: static;
+        width: 100vw;
+        height: auto;
+        margin: 58px 53px 0 54px;
+    }
+
+    .box-right {
+        display: block;
+        position: static;
+        height: 101vh;
+        width: 149vw;
+        bottom: -27%;
+        margin-top: 45px;
+
+        ;
+    }
+
+
+    img {
+        display: block;
+
+        position: absolute;
+
+        left: 7%;
+        width: 271px;
+
+        top: 65%;
+    }
+
+
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    p {
+        width: 296px;
+
+    }
+
+    button {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+}
+
+
+@media screen and (max-width:390px) {
+
+    img {
+        top: 98%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 540px){
+
+img{
+    top: 95%;
+}
+
+
+}
